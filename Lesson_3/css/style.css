@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+.introduction > p {
+  color: blue;
+}
+h1 {
+  color: burlywood;
+}
+div {
+  color: chocolate;
+}
+span {
+  color: blue;
+}
+.text {
+  color: darkblue;
+}
+.subtitle.h2 {
+  color: blue;
+}
+.convenience {
+  color: red;
+}
+.section {
+  color: black;
+}
+.red {
+  color: red;
+}
+.next-text ~ p {
+  color: grey;
+}
+#paragraph {
+  color: hotpink;
+}
+.research h2 {
+  color: indigo;
+}
+[class*="-text"] {
+  color: lawngreen;
+}
+.providing-convenience p {
+  color: black;
+}
+.providing-convenience .list {
+  color: cornflowerblue;
+}
